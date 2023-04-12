@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+body{
+    height: 100vh;
+    background-color: red;
+
+}
+.context{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    grid-template-rows: 3fr 2fr 1fr;
+    gap: 1rem;
+    width: auto;
+}
+.firstBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: brown;
+
+}
+.secondBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: brown;
+    
+}
+.thirdBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: brown;
+    
+}
